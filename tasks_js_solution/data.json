@@ -1,0 +1,59 @@
+[
+  {
+    "type": "email",
+    "status": "pending",
+    "destination": "user1@example.com",
+    "payload": "Welcome!"
+  },
+  { "type": "report", "status": "pending", "destination": "admin" },
+  {
+    "type": "email",
+    "status": "pending",
+    "destination": "user2@example.com",
+    "payload": "Update"
+  },
+  {
+    "type": "sms",
+    "status": "pending",
+    "destination": "+1234567890",
+    "payload": "Alert"
+  },
+  { "type": "report", "status": "pending", "destination": "manager" },
+  {
+    "type": "email",
+    "status": "completed",
+    "destination": "user3@example.com",
+    "payload": "Done"
+  },
+  {
+    "type": "email",
+    "status": "pending",
+    "destination": "user4@example.com",
+    "payload": "Reminder"
+  },
+  { "type": "report", "status": "pending", "destination": "finance" },
+  {
+    "type": "push",
+    "status": "pending",
+    "destination": "device123",
+    "payload": "Notification"
+  },
+  {
+    "type": "email",
+    "status": "pending",
+    "destination": "user5@example.com",
+    "payload": "Info"
+  },
+  {
+    "type": "whatsapp",
+    "status": "pending",
+    "destination": "+5491123456789",
+    "payload": "Hola! Tu pedido está en camino"
+  },
+  {
+    "type": "whatsapp",
+    "status": "pending",
+    "destination": "+5491198765432",
+    "payload": "Recordatorio de tu cita mañana"
+  }
+]
