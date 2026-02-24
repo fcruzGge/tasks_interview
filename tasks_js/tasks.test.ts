@@ -24,7 +24,7 @@ describe('TaskProcessor', () => {
     expect(results[0].status).toBe('completed');
   });
 
-  it('should fail for whatsapp tasks', () => {
+  it('should process whatsapp tasks successfully', () => {
     const tasks: Task[] = [
       { type: 'whatsapp', status: 'pending', destination: '+123456789', payload: 'Message' }
     ];
@@ -35,7 +35,7 @@ describe('TaskProcessor', () => {
     expect(results[0].status).toBe('completed');
   });
 
-  it('should fail for sms tasks', () => {
+  it('should process whatsapp tasks successfully', () => {
     const tasks: Task[] = [
       { type: 'sms', status: 'pending', destination: '+123456789', payload: 'Alert' }
     ];
@@ -46,7 +46,7 @@ describe('TaskProcessor', () => {
     expect(results[0].status).toBe('completed');
   });
 
-  it('should fail for push tasks', () => {
+  it('should process push tasks successfully', () => {
     const tasks: Task[] = [
       { type: 'push', status: 'pending', destination: 'device123', payload: 'Notification' }
     ];
